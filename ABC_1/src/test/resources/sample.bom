@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: TEST1.ABC_1.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/ABC_1-0.0.1-SNAPSHOT.jar
+  item:
+    services:
+    - type: TEST1.ABC_1.MySample
